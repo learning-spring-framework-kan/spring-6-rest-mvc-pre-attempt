@@ -1,0 +1,4 @@
+INSERT INTO BEER ( id, beer_name, beer_style, price, quantity_on_hand, version, created_date, last_modified_date, upc ) VALUES ('ebd1ae91-479d-4ca4-a53f-2c6ebc35e162', 'newBeer1', null, 5.2, 2, 2, null, null, '234');
+INSERT INTO BEER ( id, beer_name, beer_style, price, quantity_on_hand, version, created_date, last_modified_date, upc ) VALUES ('ebd1ae91-479d-4ca4-a53f-2c6ebc35e163', 'newBeer2', null, 5.2, 2, 2, null, null, '234');
+INSERT INTO BEER ( id, beer_name, beer_style, price, quantity_on_hand, version, created_date, last_modified_date, upc ) VALUES ('ebd1ae91-479d-4ca4-a53f-2c6ebc35e164', 'newBeer3', null, 5.2, 2, 2, null, null, '234');
+INSERT INTO BEER ( id, beer_name, beer_style, price, quantity_on_hand, version, created_date, last_modified_date, upc ) VALUES ('ebd1ae91-479d-4ca4-a53f-2c6ebc35e165', 'newBeer4', null, 5.2, 2, 2, null, null, '234');
