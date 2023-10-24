@@ -2,19 +2,17 @@ package com.kanwar.spring6restmvcpreattempt.controllers;
 
 import com.kanwar.spring6restmvcpreattempt.domain.Beer;
 import com.kanwar.spring6restmvcpreattempt.services.BeerService;
+import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.UUID;
 
+@AllArgsConstructor
 @RestController
 public class BeerController {
 
     private final BeerService beerService;
-
-    public BeerController(BeerService beerService) {
-        this.beerService = beerService;
-    }
 
     @RequestMapping("/api/beer")
     public List<Beer> beer(){
